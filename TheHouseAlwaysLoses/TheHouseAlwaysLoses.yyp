@@ -36,6 +36,7 @@
   "name":"TheHouseAlwaysLoses",
   "resources":[
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"id":{"name":"spr_temporary_titlecard","path":"sprites/spr_temporary_titlecard/spr_temporary_titlecard.yy",},},
   ],
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
