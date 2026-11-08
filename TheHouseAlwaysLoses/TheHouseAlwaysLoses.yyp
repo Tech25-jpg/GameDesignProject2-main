@@ -35,13 +35,21 @@
   },
   "name":"TheHouseAlwaysLoses",
   "resources":[
-    {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"id":{"name":"rm_casino_inner","path":"rooms/rm_casino_inner/rm_casino_inner.yy",},},
+    {"id":{"name":"rm_casino_outer","path":"rooms/rm_casino_outer/rm_casino_outer.yy",},},
+    {"id":{"name":"rm_title_screen","path":"rooms/rm_title_screen/rm_title_screen.yy",},},
+    {"id":{"name":"snd_game_corner","path":"sounds/snd_game_corner/snd_game_corner.yy",},},
+    {"id":{"name":"snd_kimono_girl_theme","path":"sounds/snd_kimono_girl_theme/snd_kimono_girl_theme.yy",},},
+    {"id":{"name":"snd_lavender_town","path":"sounds/snd_lavender_town/snd_lavender_town.yy",},},
     {"id":{"name":"spr_temporary_titlecard","path":"sprites/spr_temporary_titlecard/spr_temporary_titlecard.yy",},},
+    {"id":{"name":"THAL_Tileset","path":"tilesets/THAL_Tileset/THAL_Tileset.yy",},},
   ],
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
-    {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"roomId":{"name":"rm_title_screen","path":"rooms/rm_title_screen/rm_title_screen.yy",},},
+    {"roomId":{"name":"rm_casino_outer","path":"rooms/rm_casino_outer/rm_casino_outer.yy",},},
+    {"roomId":{"name":"rm_casino_inner","path":"rooms/rm_casino_inner/rm_casino_inner.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[
