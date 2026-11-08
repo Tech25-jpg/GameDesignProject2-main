@@ -8,7 +8,7 @@
     "TileSerialiseData":[],
   },
   "name":"THAL_Tileset",
-  "out_columns":0,
+  "out_columns":20,
   "out_tilehborder":2,
   "out_tilevborder":2,
   "parent":{
@@ -17,7 +17,10 @@
   },
   "resourceType":"GMTileSet",
   "resourceVersion":"2.0",
-  "spriteId":null,
+  "spriteId":{
+    "name":"spr_floor_tileset",
+    "path":"sprites/spr_floor_tileset/spr_floor_tileset.yy",
+  },
   "spriteNoExport":false,
   "textureGroupId":{
     "name":"Default",
@@ -31,5 +34,5 @@
   "tileWidth":16,
   "tilexoff":0,
   "tileyoff":0,
-  "tile_count":0,
+  "tile_count":400,
 }
