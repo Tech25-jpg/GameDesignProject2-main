@@ -1,13 +1,13 @@
 {
   "$GMTileSet":"v1",
-  "%Name":"THAL_Tileset",
+  "%Name":"TileSetOutside",
   "autoTileSets":[],
   "macroPageTiles":{
     "SerialiseHeight":0,
     "SerialiseWidth":0,
     "TileSerialiseData":[],
   },
-  "name":"THAL_Tileset",
+  "name":"TileSetOutside",
   "out_columns":20,
   "out_tilehborder":2,
   "out_tilevborder":2,
@@ -18,8 +18,8 @@
   "resourceType":"GMTileSet",
   "resourceVersion":"2.0",
   "spriteId":{
-    "name":"spr_floor_tileset",
-    "path":"sprites/spr_floor_tileset/spr_floor_tileset.yy",
+    "name":"spr_floor_tileset_outside",
+    "path":"sprites/spr_floor_tileset_outside/spr_floor_tileset_outside.yy",
   },
   "spriteNoExport":false,
   "textureGroupId":{
