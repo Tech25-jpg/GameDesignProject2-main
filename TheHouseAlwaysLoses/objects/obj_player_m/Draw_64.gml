@@ -1,4 +1,4 @@
-// @desc textboxes
+// @desc Claude's assistance was used here. Tried to avoid as much GenAI usage as I could.
 if (currently_talking != noone) {
 	var _gui_w = display_get_gui_width();
 	var _gui_h = display_get_gui_height();
