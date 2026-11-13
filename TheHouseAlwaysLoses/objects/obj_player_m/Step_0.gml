@@ -26,7 +26,8 @@ if (currently_talking == noone) {
 			var _new_x = x + (_h_input * _spd);
 			var _edge_x = _new_x + (_h_input * _half);
 			if (tilemap_get_at_pixel(_tilemap, _edge_x, y - _half) == 0 &&
-			    tilemap_get_at_pixel(_tilemap, _edge_x, y + _half) == 0) {
+			    tilemap_get_at_pixel(_tilemap, _edge_x, y + _half) == 0 &&
+				!place_meeting(_new_x, y, obj_solid_parent)) {
 				x = _new_x;
 			}
 		}
@@ -35,7 +36,8 @@ if (currently_talking == noone) {
 			var _new_y = y + (_v_input * _spd);
 			var _edge_y = _new_y + (_v_input * _half);
 			if (tilemap_get_at_pixel(_tilemap, x - _half, _edge_y) == 0 &&
-			    tilemap_get_at_pixel(_tilemap, x + _half, _edge_y) == 0) {
+			    tilemap_get_at_pixel(_tilemap, x + _half, _edge_y) == 0 &&
+				!place_meeting(x, _new_y, obj_solid_parent)) {
 				y = _new_y;
 			}
 		}
@@ -72,7 +74,7 @@ else if (keyboard_check_pressed(ord("Z"))) {
 		var _check_x = x + lengthdir_x(_check_distance, _angles[facing]);
 		var _check_y = y + lengthdir_y(_check_distance, _angles[facing]);
 
-		var _npc = instance_place(_check_x, _check_y, obj_gentleman_npc_dark);
+		var _npc = instance_place(_check_x, _check_y, obj_interactable_parent);
 
 		if (_npc != noone) {
 			currently_talking = _npc;
@@ -83,20 +85,21 @@ else if (keyboard_check_pressed(ord("Z"))) {
 			current_text = dialogue[0];
 
 			with (_npc) {
+				if (turns_to_face) {
 				var _dir = point_direction(x, y, other.x, other.y);
-				var _frames = [2, 0, 1, 3];
+				var _frames = [3, 0, 1, 2];
 
-				if (_dir >= 45 && _dir < 135)       { facing = 3; }
-				else if (_dir >= 135 && _dir < 225) { facing = 2; }
+				if (_dir >= 45 && _dir < 135)       { facing = 3; } 
+				else if (_dir >= 135 && _dir < 225) { facing = 2; } 
 				else if (_dir >= 225 && _dir < 315) { facing = 1; }
 				else                                { facing = 0; }
 				
-				sprite_index = spr_gentleman_npc_dark;
 				image_speed = 0;
 				image_index = _frames[facing];
 			}
 		}
 	}
+}
 	else {
 		if (current_text_index < string_length(current_text)) {
 			current_text_index = string_length(current_text);

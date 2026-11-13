@@ -1,4 +1,6 @@
 /// @desc NPC Dialogue
+event_inherited();
+turns_to_face = true;
 text = [
 	"Welcome to Royal Time Casino! I would know that because I'm here to tell you! Wa-ha-ha-ha-ha!",
 	"Anyway, care to try your luck? Well... You're out of luck! This is early development, for Pete's sake!",

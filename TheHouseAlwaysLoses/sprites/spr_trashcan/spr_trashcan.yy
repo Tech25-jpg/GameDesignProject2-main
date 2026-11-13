@@ -1,7 +1,7 @@
 {
   "$GMSprite":"v2",
   "%Name":"spr_trashcan",
-  "bboxMode":0,
+  "bboxMode":2,
   "bbox_bottom":24,
   "bbox_left":1,
   "bbox_right":17,

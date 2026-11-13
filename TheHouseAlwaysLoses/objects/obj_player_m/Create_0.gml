@@ -12,3 +12,6 @@ dialogue = [];
 choice_line = -1;
 choosing = false;
 choice_index = 0;
+start_battle = false;
+
+interact_target = noone;

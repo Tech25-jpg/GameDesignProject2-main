@@ -1,4 +1,4 @@
-// @desc [Claude was used for assistance for this section] / textboxes. 
+// @desc textboxes
 if (currently_talking != noone) {
 	var _gui_w = display_get_gui_width();
 	var _gui_h = display_get_gui_height();

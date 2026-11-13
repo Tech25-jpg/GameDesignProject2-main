@@ -17,7 +17,7 @@ Title Screen co-created by KaiyoLazr & KT on Aseprite
 Sprite Tile sets (and Collision Tile set) created by KT on Aseprite (this took up his two weekends, have pity on him)
 
 ━━━━━ • ━━━━━━━━━━ • ━━━━━
-Other Resources
+Other Resources - The Spriters' Resource
 ━━━━━ • ━━━━━━━━━━ • ━━━━━
 
 Pokémon Red - PokemonGb-RAeo
