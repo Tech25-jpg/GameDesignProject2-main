@@ -1,6 +1,10 @@
 This documentation entails credits, resources, etc.
 *NOTE* KaiyoLazr is a friend of KT outside of ITSC4230 - Game Design & Dvlpment Course. KT asked for help in revisioning his original title screen from the Final Concept Doc. which Kaiyo gladly accepted. Due to privacy concerns, Kaiyo's real identity remains anonymous.
 
+Members of TASK: Kevin Teah, David Shaw, Cooper Adams, Ranvita Kothapalli
+
+INSTRUCTIONS: Nothing major. Press 'Z' on your keyboard to interact with three other objects in this demo. They all have revolutionary dialogue to share.
+
 ━━━━━ • ━━━━━
 OST
 ━━━━━ • ━━━━━
