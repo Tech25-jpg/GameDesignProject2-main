@@ -7,10 +7,18 @@ OST
 [DEBATED PLACEHOLDERS - Downloaded from Khinsider]
 Pokémon G/S/C - "Game Corner", Licensed by Pokémon Co.
 Pokémon G/S/C - "Lavender Town", Licensed by Pokémon Co.
-Pokémon G/S/C - "Trainers' Eyes Meet (Kimono Girl)", Licensed by Pokemon Co.
+Pokémon G/S/C - "Trainers' Eyes Meet (Kimono Girl)", Licensed by Pokémon Co.
 
 ━━━━━ • ━━━━━━━━━━ • ━━━━━
 Artist Contributions
 ━━━━━ • ━━━━━━━━━━ • ━━━━━
+Temporary Title Screen provided by KT
 Title Screen co-created by KaiyoLazr & KT on Aseprite
-Sprite Tilesets created by KT on Aseprite (this took up his weekend, have pity on him)
+Sprite Tile sets (and Collision Tile set) created by KT on Aseprite (this took up his two weekends, have pity on him)
+
+━━━━━ • ━━━━━━━━━━ • ━━━━━
+Other Resources
+━━━━━ • ━━━━━━━━━━ • ━━━━━
+
+Pokémon Red - PokemonGb-RAeo
+Pokémon G/S - Game Boy_GBC - Characters - Characters (Overworld)
