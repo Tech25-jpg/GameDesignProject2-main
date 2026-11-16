@@ -24,7 +24,7 @@
           -4,0,3,-2147483648,0,0,-4,-2147483648,-5,0,-62,-2147483648,1,0,-4,-2147483648,1,0,-4,-2147483648,7,0,
           -2147483648,0,0,-2147483648,0,-2147483648,-4,0,2,-2147483648,0,-78,-2147483648,2,0,-2147483648,-3,0,
           2,-2147483648,0,-24,-2147483648,
-        ],"TileDataFormat":1,},"tilesetId":{"name":"spr_floor_casino_tileset_outside","path":"tilesets/spr_floor_casino_tileset_outside/spr_floor_casino_tileset_outside.yy",},"userdefinedDepth":false,"visible":true,"x":0,"y":0,},
+        ],"TileDataFormat":1,},"tilesetId":null,"userdefinedDepth":false,"visible":true,"x":0,"y":0,},
     {"$GMRTileLayer":"","%Name":"Tiles_Ground","depth":200,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Tiles_Ground","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":48,"SerialiseWidth":86,"TileCompressedData":[
           -1857,-2147483648,1,0,-11,-2147483648,1,0,-73,-2147483648,1,0,-10,-2147483648,-2,0,-63,-2147483648,1,
           0,-5,-2147483648,-10,0,-4,-2147483648,-4,0,-60,-2147483648,-8,0,6,-2147483648,0,-2147483648,-2147483648,
@@ -42,7 +42,7 @@
           -4,0,-2,-2147483648,1,0,-5,-2147483648,-2,0,-60,-2147483648,-11,0,-7,-2147483648,-2,0,1,-2147483648,
           -5,0,-60,-2147483648,-5,0,6,-2147483648,0,0,-2147483648,0,-2147483648,-3,0,4,-2147483648,0,0,-2147483648,
           -8,0,-60,-2147483648,-2,0,3,-2147483648,0,0,-84,-2147483648,1,0,-129,-2147483648,
-        ],"TileDataFormat":1,},"tilesetId":{"name":"spr_floor_casino_tileset_outside","path":"tilesets/spr_floor_casino_tileset_outside/spr_floor_casino_tileset_outside.yy",},"userdefinedDepth":false,"visible":true,"x":0,"y":0,},
+        ],"TileDataFormat":1,},"tilesetId":null,"userdefinedDepth":false,"visible":true,"x":0,"y":0,},
     {"$GMRBackgroundLayer":"","%Name":"Background","animationFPS":15.0,"animationSpeedType":0,"colour":4278190080,"depth":300,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"hspeed":0.0,"htiled":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Background","properties":[],"resourceType":"GMRBackgroundLayer","resourceVersion":"2.0","spriteId":null,"stretch":false,"userdefinedAnimFPS":false,"userdefinedDepth":false,"visible":true,"vspeed":0.0,"vtiled":false,"x":0,"y":0,},
   ],
   "name":"rm_casino_outside",
