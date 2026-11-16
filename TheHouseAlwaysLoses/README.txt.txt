@@ -3,8 +3,7 @@ This documentation entails credits, resources, etc.
 
 Members of TASK: Kevin Teah, David Shaw, Cooper Adams, Ranvita Kothapalli
 
-INSTRUCTIONS: Nothing major. Press 'Z' on your keyboard to interact with three other objects in this demo. They all have revolutionary dialogue to share.
-
+INSTRUCTIONS: Follow along the story; explore and battle in this short demo. Feel free to interact with everything!
 ━━━━━ • ━━━━━
 OST
 ━━━━━ • ━━━━━
@@ -26,3 +25,4 @@ Other Resources - The Spriters' Resource
 
 Pokémon Red - PokemonGb-RAeo
 Pokémon G/S - Game Boy_GBC - Characters - Characters (Overworld)
+Pokémon G/S - Game Boy_GBC - Background Locations - National Park (Bench Rip)
