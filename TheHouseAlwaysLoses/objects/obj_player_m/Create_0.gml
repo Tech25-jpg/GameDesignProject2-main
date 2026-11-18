@@ -15,3 +15,19 @@ choice_index = 0;
 start_battle = false;
 
 interact_target = noone;
+
+menu_state = MENU.CLOSED;
+menu_index = 0;
+menu_items = ["Patron VIP", "Save", "Title Screen", "Close"];
+save_choice = 0;
+save_exists = false;
+
+card_anim = 0;
+save_done_timer = 0;
+
+if (global.load_pending) {
+	x = global.save_data.px
+	y = global.save_data.py
+	facing = global.save_data.facing;
+	global.load_pending = false;
+}

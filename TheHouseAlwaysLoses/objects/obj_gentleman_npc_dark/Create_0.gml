@@ -10,7 +10,7 @@ text = [
 image_speed = 0;
 image_index = 0;
 
-choice_line = 3;
+choice_line = 2;
 
 yes_text = [
 	"Oh? So we have?",

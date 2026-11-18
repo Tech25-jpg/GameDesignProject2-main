@@ -1,0 +1,9 @@
+/* state = 0;
+body ="Dear Esteemed Guest, \n\nCongratulations! You have been selected for a complimentary Royal Time Casino VIP membership. \n\nTo activate your card, please complete the short survey that follows.\n\Best of luck,\nRoyal Time Management";
+body_index = 0;
+gender_choice = 0;
+confirm_choice = 0;
+name_max = 10;
+input_delay = 10;
+done_timer = 0;
+keyboard_string = "";

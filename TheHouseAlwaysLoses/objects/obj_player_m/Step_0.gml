@@ -1,3 +1,70 @@
+// SAVE/LOAD/MENU
+var _card_target = (menu_state == MENU.CARD) ? 1 : 0;
+card_anim = lerp(card_anim, _card_target, 0.2);
+if (abs(card_anim - _card_target) < 0.01) card_anim = _card_target;
+
+if (menu_state == MENU.CLOSED) {
+	if (currently_talking == noone && keyboard_check_pressed(vk_enter)) {
+		menu_state = MENU.MAIN;
+		menu_index = 0;
+		interact_target = noone;
+		image_speed = 0;
+		image_index = 0;
+	}
+}
+else {
+	switch (menu_state) {
+		case MENU.MAIN:
+		var _count = array_length(menu_items);
+		if (keyboard_check_pressed(vk_up)) menu_index = (menu_index - 1 + _count) mod _count;
+		if (keyboard_check_pressed(vk_down)) menu_index = (menu_index + 1) mod _count;
+		if (keyboard_check_pressed(ord("X")) || keyboard_check_pressed(vk_enter)) menu_state = MENU.CLOSED;
+		
+		if (keyboard_check_pressed(ord("Z"))) {
+			switch (menu_items[menu_index]) {
+				case "Patron VIP": menu_state = MENU.CARD; break;
+				case "Save":
+					save_exists = file_exists(global.save_file);
+					save_choice = 0;
+					menu_state = MENU.SAVE_ASK;
+					break;
+				case "Title Screen":
+					menu_state = MENU.CLOSED;
+					room_goto(rm_title_screen);
+					break;
+				case "Close": menu_state = MENU.CLOSED; break;
+			}
+		}
+		break;
+		
+		case MENU.CARD:
+			if (keyboard_check_pressed(ord("X")) || keyboard_check_pressed(ord("Z"))) menu_state = MENU.MAIN;
+		break;
+		
+		case MENU.SAVE_ASK:
+			if (keyboard_check_pressed(vk_up)) save_choice = 0;
+			if (keyboard_check_pressed(vk_down)) save_choice = 1;
+			if (keyboard_check_pressed(ord("X"))) menu_state = MENU.MAIN;
+			
+			if (keyboard_check_pressed(ord("Z"))) {
+				if (save_choice == 0) {
+					save_game_data();
+					save_done_timer = 15;
+					menu_state = MENU.SAVE_DONE;
+				}
+				else menu_state = MENU.MAIN;
+			}
+		break;
+		
+		case MENU.SAVE_DONE:
+		if (save_done_timer > 0) save_done_timer--;
+		else if (keyboard_check_pressed(ord("Z")) || keyboard_check_pressed(ord("X"))) menu_state = MENU.CLOSED;
+			menu_state = MENU.CLOSED;
+	}
+	exit;
+}
+
+// Tile Collision
 if (currently_talking == noone) {
 	var _h_input = keyboard_check(vk_right) - keyboard_check(vk_left);
 	var _v_input = keyboard_check(vk_down) - keyboard_check(vk_up);

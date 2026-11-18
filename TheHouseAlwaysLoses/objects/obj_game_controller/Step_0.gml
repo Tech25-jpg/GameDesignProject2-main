@@ -1,0 +1,1 @@
+global.save_data.play_time += delta_time / 1000000;
