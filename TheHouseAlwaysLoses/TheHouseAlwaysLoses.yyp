@@ -61,6 +61,8 @@
     {"id":{"name":"snd_game_corner","path":"sounds/snd_game_corner/snd_game_corner.yy",},},
     {"id":{"name":"snd_kimono_girl_theme","path":"sounds/snd_kimono_girl_theme/snd_kimono_girl_theme.yy",},},
     {"id":{"name":"snd_lavender_town","path":"sounds/snd_lavender_town/snd_lavender_town.yy",},},
+    {"id":{"name":"snd_pokeflute","path":"sounds/snd_pokeflute/snd_pokeflute.yy",},},
+    {"id":{"name":"snd_pokelullaby","path":"sounds/snd_pokelullaby/snd_pokelullaby.yy",},},
     {"id":{"name":"spr_casino_chip_black","path":"sprites/spr_casino_chip_black/spr_casino_chip_black.yy",},},
     {"id":{"name":"spr_casino_chip_blue","path":"sprites/spr_casino_chip_blue/spr_casino_chip_blue.yy",},},
     {"id":{"name":"spr_casino_chip_green","path":"sprites/spr_casino_chip_green/spr_casino_chip_green.yy",},},
@@ -97,10 +99,10 @@
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
     {"roomId":{"name":"rm_title_screen","path":"rooms/rm_title_screen/rm_title_screen.yy",},},
+    {"roomId":{"name":"rm_intro","path":"rooms/rm_intro/rm_intro.yy",},},
     {"roomId":{"name":"rm_casino_outside","path":"rooms/rm_casino_outside/rm_casino_outside.yy",},},
     {"roomId":{"name":"rm_casino_inside","path":"rooms/rm_casino_inside/rm_casino_inside.yy",},},
     {"roomId":{"name":"rm_card_battle","path":"rooms/rm_card_battle/rm_card_battle.yy",},},
-    {"roomId":{"name":"rm_intro","path":"rooms/rm_intro/rm_intro.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[
